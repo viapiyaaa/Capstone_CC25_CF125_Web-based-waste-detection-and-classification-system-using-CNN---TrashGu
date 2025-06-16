@@ -32,9 +32,14 @@ Pada proyek ini, kami menggunakan tiga dataset klasifikasi sampah dari Kaggle ya
 
 Dataset ini kemudian **digabungkan** menjadi satu dataset yang lebih besar untuk meningkatkan variasi data dan performa model klasifikasi.
 
+# Akses Website TrashGu
+
+Website dapat di akses melalui tautan berikut:
+[Website TrashGu](https://trash_gu.ivanrajwa.my.id/)
+
 ## Cara Penggunaan
 
-### Cara Menjalankan Dashboard:
+### Cara Menjalankan Dashboard di Streamlit:
 
 1. Install semua library yang diperlukan: Menggunakan pip install untuk menginstal library yang diperlukan. Anda bisa melakukannya secara manual:
 `pip install numpy pandas matplotlib seaborn streamlit babel`
@@ -44,6 +49,58 @@ Atau menggunakan requirements.txt untuk menginstal semua library yang tercantum 
 `cd Trashgu-streamlit`
 3. Jalankan file app.py dengan Streamlit: Menjalankan aplikasi dashboard menggunakan Streamlit dengan perintah:
 `streamlit run app.py`
+
+
+### Cara Menjalankan CapstoneTrashGu di Lokal:
+### 1. Clone Repository
+
+bash
+git clone https://github.com/viapiyaaa/Capstone_CC25_CF125.git
+cd trashguCapstone
+
+### 2. Jalankan Backend (Flask API)
+
+#### a. Masuk ke folder backend
+
+bash
+cd backend
+
+#### b. Install dependensi backend
+
+bash
+pip install -r requirements.txt
+
+
+#### c. Jalankan aplikasi Flask
+
+bash
+python app.py
+
+Pastikan port yang digunakan cocok dengan konfigurasi CORS di app.py.
+
+### 3. Jalankan Frontend (Vite/React + Tailwind)
+
+#### a. Masuk ke folder frontend/src
+
+bash
+cd ../frontend/src
+
+#### b. Install dependensi frontend
+
+bash
+npm install
+
+#### c. Jalankan aplikasi frontend
+
+bash
+npm run dev
+
+### 4. Akses Aplikasi
+
+Setelah semua server berjalan:
+
+* *Frontend:* http://localhost:57304 (saat development)
+* *Backend API:* http://localhost:5000 *(atau sesuai yang diset di app.py)*
 
 # Pengembang
 Coding Camp 2025 Team CC25-CF125 
