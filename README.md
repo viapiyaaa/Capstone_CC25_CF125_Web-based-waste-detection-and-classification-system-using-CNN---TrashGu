@@ -102,6 +102,11 @@ Setelah semua server berjalan:
 * *Frontend:* http://localhost:57304 (saat development)
 * *Backend API:* http://localhost:5000 *(atau sesuai yang diset di app.py)*
 
+# Results
+<img width="1919" height="819" alt="Screenshot 2025-06-18 120428" src="https://github.com/user-attachments/assets/b6f22087-8d19-40b1-8e31-a472993fe6fb" />
+<img width="1919" height="819" alt="Screenshot 2025-06-18 121151" src="https://github.com/user-attachments/assets/2bd087ee-1258-4785-9c5e-42610f5e86c2" />
+<img width="1708" height="816" alt="Screenshot 2025-06-18 121344" src="https://github.com/user-attachments/assets/a858f234-a0a5-47e0-ac1f-6751a05f4602" />
+
 # Pengembang
 Coding Camp 2025 Team CC25-CF125 
 1. [Agistia Ronna Aniqa](https://www.linkedin.com/in/agistiaronna/) - MC299D5X1601 - Machine Learning
